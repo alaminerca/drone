@@ -1,0 +1,32 @@
+# --- Project Specific Exclusions ---
+
+# Exclude the video directory containing large output files
+videos/
+
+# Exclude DRL run data that can be regenerated
+data/training_logs/
+data/tensorboard/
+
+# --- General Webots Exclusions ---
+
+# Webots creates a temporary build folder for the controllers
+build/
+*.class
+
+# Webots sometimes leaves backup files
+*.wbt~
+*.proto~
+
+# --- General Python Exclusions ---
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# IDE and Operating System Exclusions (Common)
+.idea/      # PyCharm/IntelliJ
+.vscode/    # VS Code
+*.swp       # Vim
+*~          # Linux/macOS temporary files
+.DS_Store   # macOS
+Thumbs.db   # Windows
