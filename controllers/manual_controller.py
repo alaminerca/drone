@@ -5,7 +5,7 @@ import numpy as np
 
 # --- 1. CONFIGURATION ---
 TIME_STEP = 32
-SIMULATION_DURATION = 20.0  # Run for 20 seconds to gather metrics
+SIMULATION_DURATION = 30.0  # Run for 20 seconds to gather metrics
 
 # --- Physics & Targets ---
 HOVER_VELOCITY = 56.0
